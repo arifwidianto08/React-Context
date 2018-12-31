@@ -9,9 +9,11 @@ class App extends Component {
 	render() {
 		return (
 			<div>
+				<h4 style={{ textAlign: 'center' }}>Made With React Context API</h4>
 				<FirstProvider>
 					<FirstContainer />
 				</FirstProvider>
+				<br />
 				<SecondProvider>
 					<SecondContainer />
 				</SecondProvider>
